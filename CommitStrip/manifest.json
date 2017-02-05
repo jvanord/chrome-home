@@ -1,0 +1,13 @@
+
+{
+	"name": "CommitStrip",
+	"description": "Link to CommitStrip",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons": { "128": "icon.png" },
+	"app": {
+		"urls": [ "http://www.commitstrip.com/" ],
+		"launch": { "web_url": "http://www.commitstrip.com/" }
+	},
+	"permissions": [ "unlimitedStorage", "notifications" ]
+}
